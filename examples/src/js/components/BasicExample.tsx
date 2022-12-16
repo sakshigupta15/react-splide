@@ -10,10 +10,10 @@ export const BasicExample: React.VoidFunctionComponent = () => {
 
       <Splide
         options={ {
-          perPage: 2,
+          perPage: 3,
           height : '10rem',
           rewind : true,
-          gap    : '1rem',
+          gap    : '3rem',
         } }
         aria-labelledby="basic-example-heading"
         onMoved={ ( splide, newIndex ) => {
